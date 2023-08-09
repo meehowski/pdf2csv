@@ -1,0 +1,36 @@
+filters:
+  single:
+    txt1: 'Measured Leakage:'
+    txt2: 'Leakage Target:'
+    txt3: 'Test ID:'
+    txt4: 'Coefficient (C):'
+    txt5: 'Exponent (n):'
+    txt6: 'Correlation Coefficient:'
+    txt7: 'Test Characteristics:'
+    txt8: 'Indoor Temp:'
+    txt9: 'Outdoor Temp:'
+
+  horizontal:
+    {}
+
+  vertical:
+    tbl1: 'Bldg (Pa)'
+    tbl2: 'Adj Bldg (Pa)'
+    tbl3: 'Fan (Pa)'
+    tbl4: 'Config'
+
+output:
+  - 'Envelope Leakage Test'
+  - txt1
+  - txt2
+  - txt3
+  - txt4
+  - txt5
+  - txt6
+  - txt8
+  - txt9
+  - "Test Readings"
+  - tbl1
+  - tbl2
+  - tbl3
+  - tbl4
